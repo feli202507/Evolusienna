@@ -1,0 +1,19 @@
+import streamlit as st
+import pandas as pd
+
+import streamlit as st
+
+def suntik_css(file_css):
+    with open(file_css) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+suntik_css("../assets/style.css") # <-- Alamat untuk file di dalam 'pages'
+
+# ... sisa kodemu ...
+st.set_page_config(
+    page_title="Ruang Belajar 1 | Feli's Sharing",
+    page_icon="assets/panda_logo.png"
+)
+# --- Bagian Header ---
+st.title("Feli's 101 | Metode Belajar Efektif")
+st.subheader("Masih belajar pake cara biasa?")

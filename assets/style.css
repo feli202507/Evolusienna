@@ -1,0 +1,40 @@
+/* File: assets/style.css */
+
+/* Mengubah latar belakang utama dan sidebar */
+[data-testid="stAppViewContainer"] {
+    background-color: #b6d8f7;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #e7f1f9;
+}
+
+/* Mengubah warna semua teks menjadi terang */
+h1, h2, h3, h4, h5, h6, p, li, label {
+    color: #4e2152;
+}
+
+/* Memberi style pada tombol */
+.stButton button {
+    background-color: #7776B3;
+    color: #9babbe;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+.stButton button:hover {
+    background-color: #9d8ad4;
+    color: #9babbe;
+}
+
+/* Memberi style pada tabs */
+.stTabs [data-baseweb="tab-list"] {
+	gap: 24px;
+}
+
+.stTabs [data-baseweb="tab"] {
+	height: 50px;
+    background-color: #cba5e0;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
