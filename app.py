@@ -8,11 +8,11 @@ suntik_css("assets/style.css") # <-- Alamat untuk app.py
 
 # ... sisa kodemu ...
 st.set_page_config(
-    page_title="Feli's Sharing",
+    page_title="Evolusienna",
     page_icon="assets/panda_logo.png"
 )
 # --- Bagian Header ---
-st.title("Hi, welcome to Feli's Sharing !")
+st.title("Hi, welcome to Evolusienna !")
 st.header("Mau belajar efektif, belajar hal baru, dan cari hobby baru?")
 st.write("Menurut aku, metode belajar yg cocok itu tiap orang beda. Jadi, coba sebanyak mungkin dan analisis ya!")
 # --- Tampilkan Logo Maskot ---

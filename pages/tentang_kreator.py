@@ -11,7 +11,7 @@ st.set_page_config(
     page_title="Tentang Kreator",
     page_icon="🐼"
 )
-st.title("🐼 TENTANG KREATOR")
+st.title("🐼 TENTANG KREATOR EVOLUSIENNA")
 
 col1,col2 = st.columns(2)
 with col1 :
