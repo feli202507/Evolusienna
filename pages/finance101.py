@@ -11,9 +11,9 @@ def suntik_css(file_css):
 
 suntik_css("assets/style.css") # <-- Alamat untuk file di dalam 'pages'
 
-st.header("Haii! Ayo rencanakan finansialmu walau masih sekolah!")
+st.header("Haii! Ayo rencanakan finansial lo walau masih sekolah!")
 st.write("""
-Hal ini adalah salah satu hal yg aku harap aku tau pas masih sekolah,
+Hal ini adalah salah satu hal yg gue harap gue tau pas masih sekolah,
 karena abis lulus SMA langsung terjun ke kuliah, rasanya ga ada basic cara atur keuangan
 sedangkan udah mulai harus hidup mandiri, bahkan jauh dari ortu. 
 """)
@@ -27,16 +27,19 @@ uang_jajan = st.number_input(
     min_value=0,
     value=100000,
     step=10000,
-    help="Masukkan Total Uang Jajan kamu dalam 1 Periode:"
+    help="Masukkan Total Uang Jajan lo dalam 1 Periode:"
 )
 frekuensi = st.radio(
-    "Kamu dapat uang ini :",
+    "Lo dapat uang ini :",
     ("Harian","Mingguan","Bulanan"),
     horizontal=True
 )
-kebutuhan_pct = st.slider("Kebutuhan (Transportasi,Jajan,Kuota,dll)",0,100,50)
+kebutuhan_pct = st.slider("Kebutuhan (Transportasi,Jajan,Kuota,dll)",0,99,50)
 
-keinginan_pct= st.slider("Keinginan (Jajan,Hiburan,Game,dll)",0,100-kebutuhan_pct,30)
+sisa_setelah_kebutuhan = 100 - kebutuhan_pct
+default_keinginan = min(30,sisa_setelah_kebutuhan)
+
+keinginan_pct= st.slider("Keinginan (Jajan,Hiburan,Game,dll)",0,sisa_setelah_kebutuhan,default_keinginan)
 
 masa_depan_pct = 100-kebutuhan_pct-keinginan_pct
 st.write(f"**Tabungan (Masa Depan)** : '{masa_depan_pct}'")
@@ -45,8 +48,8 @@ dana_kebutuhan = uang_jajan * (kebutuhan_pct/100)
 dana_keinginan = uang_jajan * (keinginan_pct/100)
 dana_masa_depan = uang_jajan * (masa_depan_pct/100)
 
-st.header("Ini Rencana Alokasi dana kamu🎉")
-st.write("Jangan ragu buat sesuaikan ulang sesuai kondisi ya🎉")
+st.header("Ini Rencana Alokasi dana lo🎉")
+st.write("Jangan ragu buat sesuaikan ulang sesuai kondisi ya")
 
 col1,col2,col3 = st.columns(3)
 with col1 :
@@ -67,6 +70,6 @@ proyeksi_1_bulan = dana_mingguan * 4
 proyeksi_3_bulan = dana_mingguan * 12
 proyeksi_6_bulan = dana_mingguan * 24
 
-st.write(f"Dalam 1 bulan, kamu punya : Rp {proyeksi_1_bulan:,.0f}")
-st.write(f"Dalam 3 bulan, kamu punya : Rp {proyeksi_3_bulan:,.0f}")
-st.write(f"Dalam 6 bulan, kamu punya : Rp {proyeksi_6_bulan:,.0f}")
+st.write(f"Dalam 1 bulan, lo punya : Rp {proyeksi_1_bulan:,.0f}")
+st.write(f"Dalam 3 bulan, lo punya : Rp {proyeksi_3_bulan:,.0f}")
+st.write(f"Dalam 6 bulan, lo punya : Rp {proyeksi_6_bulan:,.0f}")

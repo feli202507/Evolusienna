@@ -10,8 +10,8 @@ suntik_css("assets/style.css") # <-- Alamat untuk file di dalam 'pages'
 # ... sisa kodemu ...
 st.title("Jadwal Belajar Seminggu")
 st.write("""
-Disusun berdasarkan kesalahan aku selama di SMP dan SMA :
-Pengaturan waktunya buruk banget(Jangan ditiru yaa🐼)
+Disusun berdasarkan kesalahan gue selama di SMP dan SMA :
+Pengaturan waktunya buruk banget(Jangan ditiru)
 Ini disusun versi ringan buat bangun disiplin dulu, bisa diatur sesuai kebutuhan!
 -Jangan lupa buka tipsnya ya!!- (bisa copy ke notion)
 """)
@@ -70,7 +70,7 @@ with hari_sekolah  :
 
     if all(hasil_checklist):
         st.balloons()
-        st.success("JANGAN LUPA KONSISTEN YA! KAMU PASTI BISA MASUK KAMPUS IMPIAN")
+        st.success("JANGAN LUPA KONSISTEN YA! LO PASTI BISA MASUK KAMPUS IMPIAN")
   
     st.subheader("📋 Salin Jadwal Hari Sekolah")
     st.code(checklist_sekolah_teks, language="text")
@@ -88,7 +88,7 @@ with weekend  :
 
     if all(hasil_checklist):
         st.balloons()
-        st.success("JANGAN LUPA KONSISTEN YA! KAMU PASTI BISA MASUK KAMPUS IMPIAN")
+        st.success("JANGAN LUPA KONSISTEN YA! LO PASTI BISA MASUK KAMPUS IMPIAN")
 
     st.subheader("📋 Salin Jadwal Weekend")
     st.code(checklist_weekend_teks, language="text")
@@ -104,7 +104,7 @@ with tips :
     """)
     st.warning("""
     **Peringatan Burnout:** Belajar itu penting tapi jangan sampe burnout. 
-    Dulu aku sepelein hal itu, akhirnya burnout di minggu ujian dan nilainya turun (jangan dicontoh yeaa hehe).
+    Dulu gue sepelein hal itu, akhirnya burnout di minggu ujian dan nilainya turun (jangan dicontoh yeaa hehe).
     """)
 
    

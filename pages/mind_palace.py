@@ -11,7 +11,7 @@ st.set_page_config(
     page_title="Mind Palace",
     page_icon="🧠"
 )
-st.image("assets/panda_logo.png",width=200)
+st.image("assets/evolusienna_logo.png",width=200)
 st.title("Metode Menghafal Mind Palace")
 st.write("Teknik yang underrated dan dibilang banyak orang susah. Emang iya?")
 tab_penjelasan,tab_latihan = st.tabs(["💡Penjelasan","✍️Latihan"])
@@ -19,19 +19,19 @@ with tab_penjelasan :
     st.header("Apa itu Mind Palace?")
     st.write("Mind Palace adalah teknik mnemonik yang menggunakan visualisasi ruang atau tempat yang familiar untuk membantu mengingat informasi")
     st.subheader("Itu bisa dipelajarin atau cuma beberapa orang yang bisa?")
-    st.write("Jawabannya bisa dipelajari kokk. Kuncinya latihan dan fokus yaa")
+    st.write("Jawabannya bisa dipelajari kokk. Kuncinya latihan dan fokus")
     st.subheader("Cara Belajar Mind Palace")
     st.markdown("""
     1.**Pilih 'lokasi(istana)' kalian. Bisa rumah, sekolah, kelas,kamar.**
-    (semakin kamu kenal posisi lokasi itu, semakin mudah ngebayanginnya)
+    (semakin lo kenal posisi lokasi itu, semakin mudah ngebayanginnya)
             
     2.**Jelajahi tempat itu dan tentukan tempat spesifik dan jelas.** 
     (Misalnya : rumah : masuk dari pagar,ke ruang tamu, ke dapur, naik tangga, ke kamar) 
                  
-    3.**Taruh informasi di salah satu tempat istana kamu.**
-    (Misalnya kamu mau ingat daftar belanjaan. Bayangkan: susu ada di meja dapur, roti ada di atas rak,telur digantung di ruang kamu)
+    3.**Taruh informasi di salah satu tempat istana lo.**
+    (Misalnya lo mau ingat daftar belanjaan. Bayangkan: susu ada di meja dapur, roti ada di atas rak,telur digantung di ruang lo)
     4. **Buat cerita aneh dan ga masuk akal jadi lebih mudah diingat**
-    (Seperti contohnya telur digantung di lampu ruang tamu. Aneh kan? Tapi kamu akan lebih mudah ingetnya!)
+    (Seperti contohnya telur digantung di lampu ruang tamu. Aneh kan? Tapi lo akan lebih mudah ingetnya!)
             
     5. **Jelajahi kembali istana kalian sambil mengingat informasi yang kalian taruh.**
     """)

@@ -2,29 +2,29 @@
 
 /* Mengubah latar belakang utama dan sidebar */
 [data-testid="stAppViewContainer"] {
-    background-color: #b6d8f7;
+    background-color: #F7F2E9;
 }
 
 [data-testid="stSidebar"] {
-    background-color: #e7f1f9;
+    background-color: #D3B8AE;
 }
 
 /* Mengubah warna semua teks menjadi terang */
 h1, h2, h3, h4, h5, h6, p, li, label {
-    color: #4e2152;
+    color: #1b2d33;
 }
 
 /* Memberi style pada tombol */
 .stButton button {
-    background-color: #7776B3;
-    color: #9babbe;
+    background-color: #e5ab89;
+    color: #1b2d33;
     border: none;
     border-radius: 5px;
     padding: 10px 24px;
 }
 .stButton button:hover {
-    background-color: #9d8ad4;
-    color: #9babbe;
+    background-color: #edd193;
+    color: #e48f73;
 }
 
 /* Memberi style pada tabs */
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p, li, label {
 
 .stTabs [data-baseweb="tab"] {
 	height: 50px;
-    background-color: #cba5e0;
+    background-color: #f1ba6d;
     border-radius: 5px;
     padding: 0px 20px;
 }
