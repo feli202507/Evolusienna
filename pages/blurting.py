@@ -11,6 +11,8 @@ def suntik_css(file_css):
 
 suntik_css("assets/style.css") # <-- Alamat untuk file di dalam 'pages'
 
+st.image("assets/evolusienna_logo.png", width=150)
+
 # ... sisa kodemu ...
 st.title("Blurting Method")
 st.write("Metode yang banyak dipakai dan terbukti seru & berhasil. Gimana caranya?")

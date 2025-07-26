@@ -11,6 +11,8 @@ def suntik_css(file_css):
 
 suntik_css("assets/style.css") # <-- Alamat untuk file di dalam 'pages'
 
+st.image("assets/evolusienna_logo.png", width=150)
+
 st.header("Haii! Ayo rencanakan finansial lo walau masih sekolah!")
 st.write("""
 Hal ini adalah salah satu hal yg gue harap gue tau pas masih sekolah,
@@ -23,7 +25,7 @@ Jangan ragu untuk sesuaikan sama kebutuhan kalian yaa! Tapi tetep ingat, kesehat
 """)
 #INPUT UANG JAJAN
 uang_jajan = st.number_input(
-    "Ketik Jumlah Uang Jajan Kamu :",
+    "Ketik Jumlah Uang Jajan lo (tekan enter) :",
     min_value=0,
     value=100000,
     step=10000,

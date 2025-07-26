@@ -23,7 +23,7 @@ with col1 :
 with col2 :
     st.header("Mau belajar efektif, belajar hal baru, dan cari hobby baru?")
     st.write("Menurut gue, metode belajar yg cocok itu tiap orang beda. Jadi, coba sebanyak mungkin dan analisis ya!")
-
+    st.write("Klik >> untuk pilih halaman yg lo pilih")
 
 st.write("""
 Website ini semuanya dibuat anak accounting tanpa basic pendidikan coding ya, jadii
@@ -43,18 +43,18 @@ Butuh komunitas belajar yang positif?
 atau lo ga mau jadi si ambis di SMA, yang setelah lulus hilang arah?
 ...dan seribu alasan lain lo ga berkembang.
 
-Disini kita ga akan bicara "toxic motivation"
-Itu adalah hal yang buat gue jatuh sejatuh-jatuhnya fisik dan mental
-Disini kita akan belajar kemajuan jangka panjang
-Jadi kalian juga harus extra effort buat kampus dan cita-cita kalian.
+Disini kita ga akan bicara "toxic motivation".
+Itu adalah hal yang buat gue jatuh sejatuh-jatuhnya fisik dan mental.
+Disini kita akan belajar kemajuan jangka panjang.
+Jadi lo juga harus extra effort buat kampus dan cita-cita lo.
 
 Ada pertanyaan ini, KENAPA SEMUA GRATIS?
-Karena gue tau gimana rasanya hemat sampe mikir 100x buat jajan di kantin
-Karena gue bukan ahli, gue mau membangun dampak dan membantu
+Karena gue tau gimana rasanya hemat sampe mikir 10x buat jajan di kantin.
+Karena gue bukan ahli, gue mau membangun dampak dan membantu.
 
-Gue cuma perempuan yang punya cita-cita "gila" bagi 9 dari 10 orang
-Yang semua orang bilang mustahil, bahkan belajar coding aja dikatain
-Gue mau bangun sekolah gratis,panti asuhan,panti jompo,dan shelter
+Gue cuma perempuan yang punya cita-cita "gila" bagi 9 dari 10 orang.
+Yang semua orang bilang mustahil, bahkan belajar coding aja dikatain.
+Gue mau bangun sekolah gratis,panti asuhan,panti jompo,dan shelter.
 Itu visi yang Tuhan kasih ke gue selama ini.
-Saatnya eksekusi. Kalian juga.
+Saatnya eksekusi. Lo juga.
 """)
