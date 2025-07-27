@@ -23,7 +23,7 @@ with col1 :
 with col2 :
     st.header("Mau belajar efektif, belajar hal baru, dan cari hobby baru?")
     st.write("Menurut gue, metode belajar yg cocok itu tiap orang beda. Jadi, coba sebanyak mungkin dan analisis ya!")
-    st.write("Klik >> untuk pilih halaman yg lo pilih")
+    st.write("Klik >> untuk pilih halaman yg lo mau")
 
 st.write("""
 Website ini semuanya dibuat anak accounting tanpa basic pendidikan coding ya, jadii
