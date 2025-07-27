@@ -30,9 +30,8 @@ Website ini semuanya dibuat anak accounting tanpa basic pendidikan coding ya, ja
 kalau mau cerita atau ada error tolong hubungi gue yaa bisa lewat tiktok atau instagram berikut :
 """)
 st.markdown("""
-    [TikTok](https://www.tiktok.com/@dailywithfelicia?_t=ZS-8yF0LA5Gj6G&_r=1)
-    [Instagram](https://www.instagram.com/nadia_flciaa?igsh=MW05NTJ2YnB3cGZ1aA==)
-    [LinkedIn](https://www.linkedin.com/in/nadia-felicia-sujana?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+    Tiktok    : @dailywithfelicia
+    Instagram : @nadia_flciaa
 """)
 
 st.subheader("Kenapa sih gue ciptakan Evolusienna?")
